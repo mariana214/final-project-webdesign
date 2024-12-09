@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1024px) {
+    /* Body element */
+    body {
+        margin: 0;
+        background-image: none;
+    }
+
+    /* Wrapper */
+    #wrapper {
+        width: auto;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    /* Header element */
+    header {
+        border-bottom: 5px solid #FEF6C2;
+    }
+
+    /* H1 element */
+    h1 {
+        margin-top: 0;
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        font-size: 2.5em;
+    }
+
+    /* Nav element */
+    nav {
+        float: none;
+        width: auto;
+        padding-top: 0;
+        margin: 10px;
+        font-size: 1.3em;
+    }
+
+    /* Nav list items */
+    nav li {
+        display: inline-block;
+    }
+
+    /* Nav links */
+    nav a {
+        padding: 1em;
+        width: 8em;
+        font-weight: bold;
+        border-style: none;
+    }
+
+    /* Nav UL */
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Hero section */
+    #heroroad, #heromugs, #heroguitar {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Main content */
+    main {
+        padding: 0;
+        margin: 0;
+        font-size: 90%;
+    }
+}
